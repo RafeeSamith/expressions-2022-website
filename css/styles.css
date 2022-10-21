@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Franklin&family=Lobster+Two:wght@400;700&display=swap');
+
+html, body {
+    font-family: 'Libre Franklin', sans-serif;
+    scroll-behavior: smooth;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #bee5b0;
+    color: #111;
+}
+
+header {
+    margin-left: 1em;
+}
+
+header ul {
+    padding: 0;
+}
+ 
+header li {
+    display: inline-block;
+    margin: 2em 0 0 2em;
+}
+
+
+.div-title {
+    display: flex;
+    flex-direction: column;
+    margin: 4em 0 4em 0;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: "Comfortaa";
+    font-weight: normal;
+    font-size: 2em;
+    letter-spacing: 0.5em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-family: "Comfortaa";
+    font-weight: normal;
+    font-size: larger;
+    letter-spacing: 0.5em;
+    margin-bottom: 1em;
+}
+
+.title-line {
+    width: 2em;
+    border-bottom: 4px solid #fc82a2;
+}
+
+.content-corner {
+    height: 2em;
+    width: 2em;
+    border-left: 4px solid #fc82a2;
+    border-top: 4px solid #fc82a2;
+}

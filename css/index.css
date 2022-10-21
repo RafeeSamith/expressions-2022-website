@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Lobster+Two:wght@400;700&display=swap');
+
+@keyframes leaves-in {
+    0% {
+        background-position: -1000px -1000px, 1000px 1000px, 0 0;
+        background-size: 100%, 100%, cover;
+    }
+
+    100% {
+        background-position: top left, bottom right;
+        background-size: 50%, 50%, cover;
+    }
+}
+
+@keyframes arrow-bob {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(0.5em);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateX(-20%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+header {
+    opacity: 0;
+    position: fixed;
+}
+
+main {
+    margin: 0;
+}
+
+.section-pastel {
+    background-image: url("../images/leaves-top.png"), url("../images/leaves-bottom.png"), url("../images/line art.png");
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-blend-mode: normal, normal, overlay;
+    margin: 0;
+    height: 100vh;
+    background-color: #bee5b0;
+    background-size: 50%, 50%, cover;
+    animation: leaves-in 700ms ease;
+}
+
+.div-save_nature {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: appear 700ms ease;
+}
+
+.div-text-display {
+    color: #eee;
+    font-size: 7em;
+    font-family: "Lobster Two";
+    text-align: center;
+    padding: 1em;
+    background-image: url("https://cdn-icons-png.flaticon.com/512/2076/2076978.png");
+    background-size: cover;
+}
+
+.div-text-display span {
+    filter: drop-shadow(3px 3px #111);
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.div-text-display:nth-child(1) {
+    animation: slide-in 400ms ease;
+}
+
+.div-text-display:nth-child(2) {
+    animation: slide-in 600ms ease;
+}
+
+.text-see {
+    font-size: 1.2em;
+    font-family: 'Comfortaa';
+    text-decoration: underline;
+}
+
+.text-arrow {
+    color: #eee;
+    text-align: center;
+    align-items: center;
+    width: 1.5em;
+    height: 1.5em;
+    border: 2px solid #eee;
+    border-radius: 50%;
+    font-family: "Comfortaa";
+    font-weight: bold;
+    font-size: 2em;
+    transform: translateY(2em);
+    animation: arrow-bob 2s infinite ease-in-out;
+
+    background-color: #0000001f;
+    background-blend-mode: overlay;
+}
+
+.bg2 {
+    height: 100px;
+    position: relative;
+    background-attachment: fixed;
+    background-image: url('../images/alps-in-summer-1494009299AfN.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #111;
+    opacity: 70%;
+
+    display: flex;
+    align-items: center;
+    border: 4px solid #bee5b0;
+}
+
+h2 {
+    font-family: "Comfortaa";
+    font-weight: normal;
+    font-size: larger;
+    letter-spacing: 0.5em;
+    margin-bottom: 1em;
+}
+
+.section-content {
+    display: grid;
+    justify-items: center;
+    text-align: left;
+    background-image: url("../images/wp7236337.png");
+    background-color: #bee5b0;
+    background-blend-mode: overlay;
+    background-size: cover;
+}
+
+.section-inner_content {
+    margin-bottom: 1em;
+    max-width: 900px;
+}

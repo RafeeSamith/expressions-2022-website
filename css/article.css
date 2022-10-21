@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Franklin&family=Lobster+Two:wght@400;700&display=swap');
+
+.content-corner {
+    align-self: flex-start;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 4em;
+    align-items: center;
+}
+
+.section-content {
+    padding: 2em;
+    max-width: 1000px;
+}
+
+.div-text-content {
+    width: 77%;
+    float: left;
+}
+
+.div-text-content span {
+    display: block;
+    margin-bottom: 1em;
+}
+
+.div-sidebar {
+    width: 22%;
+    float: right;
+}
+
+.div-videos {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    margin-top: 4em;
+}
+
+.div-videos a {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.div-video_big {
+    padding: 2em;
+    background-color: #93b288;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-video_big span {
+    margin-bottom: 1em;
+}
+
+.div-videos li {
+    display: flex;
+    margin-bottom: 1em;
+
+}
+
+.div-videos li:first-child, .div-videos li:last-child {
+    border-bottom: 1px solid black;
+}
+
+.div-videos img {
+    max-width: 100px;
+}
+
+.div-videos_side h2 {
+    border-left: 4px solid #fc82a2;
+    padding-left: 1em;
+}
+
+.div-videos_side img {
+    margin-right: 0.5em;
+}
+
+.div-videos_side a {
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+}
