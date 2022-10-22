@@ -12,6 +12,13 @@ html, body {
 
 header {
     margin-left: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid black;
+}
+
+header a {
+    color: #111;
+    text-decoration: none;
 }
 
 header ul {
@@ -19,10 +26,14 @@ header ul {
 }
  
 header li {
+    padding: 1em;
     display: inline-block;
-    margin: 2em 0 0 2em;
+    margin: 1em 0 0 0.5em;
 }
 
+header li:hover {
+    background-color: #93b288;
+}
 
 .div-title {
     display: flex;
