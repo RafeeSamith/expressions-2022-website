@@ -1,14 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Libre+Franklin&family=Lobster+Two:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Shade&family=Comfortaa&family=Libre+Franklin&family=Lobster+Two:wght@400;700&display=swap');
 
 .content-corner {
     align-self: flex-start;
 }
 
+body, html {
+    background-image: url(../images/wp7236337.png);
+}
+
 main {
     display: flex;
     flex-direction: column;
-    margin: 4em;
+    margin: 0 4em 4em 4em;
     align-items: center;
+}
+
+header {
+    margin: 0;
+    padding: 1em;
+    height: 100px;
+    background-attachment: fixed;
+    background-image: url('https://ensia.com/wp-content/uploads/2018/02/Noteable_ewaste_main-760x378.jpg');
+    background-color: #0005;
+    background-blend-mode: darken;
+
+    border-bottom: 2px solid #fc82a2;
+}
+
+header li {
+    border: 2px solid #fc82a2;
+    border-radius: 20px;
+    background-color: #111a;
+    color: #fff;
 }
 
 .section-content {
@@ -29,8 +52,19 @@ main {
 .div-sidebar {
     width: 22%;
     float: right;
+    border-left: 1px black solid;
 }
 
+.div-sidebar li {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-sidebar a {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
 .div-videos {
     width: 100%;
     display: inline-flex;
@@ -45,7 +79,7 @@ main {
 
 .div-video_big {
     padding: 2em;
-    background-color: #93b288;
+    background-color: #badcac;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +92,6 @@ main {
 .div-videos li {
     display: flex;
     margin-bottom: 1em;
-
 }
 
 .div-videos li:first-child, .div-videos li:last-child {
@@ -78,8 +111,8 @@ main {
     margin-right: 0.5em;
 }
 
-.div-videos_side a {
+a {
     color: #111;
     font-weight: bold;
-    text-decoration: none;
 }
+
