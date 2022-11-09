@@ -24,11 +24,11 @@ header {
     background-color: #0005;
     background-blend-mode: darken;
 
-    border-bottom: 2px solid #fc82a2;
+    border-bottom: 2px solid #ff6f61;
 }
 
 header li {
-    border: 2px solid #fc82a2;
+    border: 2px solid #ff6f61;
     border-radius: 20px;
     background-color: #111a;
     color: #fff;
@@ -103,7 +103,7 @@ header li {
 }
 
 .div-videos_side h2 {
-    border-left: 4px solid #fc82a2;
+    border-left: 4px solid #ff6f61;
     padding-left: 1em;
 }
 

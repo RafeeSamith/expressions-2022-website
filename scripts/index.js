@@ -1,22 +1,13 @@
-if (document.readyState == "loading") {
-    document.addEventListener("DOMContentLoaded", ready);
-} else {
-    ready();
-}
-
-function ready() {  
-    var pastel = document.getElementsByClassName("section-pastel")[0];
-    var header = document.getElementsByTagName("header")[0];
-
-    function scrollery() {
-        let foo = pastel.getBoundingClientRect().bottom
-        console.log(foo)
-        if (foo < 0) {
-            header.style.opacity = 100
+const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+        console.log(entry)
+        if (entry.isIntersecting) {
+            entry.target.classList.add("show");
         } else {
-            header.style.opacity = 0
+            entry.target.classList.remove("show")
         }
-    }
+    })
+})
 
-    document.addEventListener('scroll', scrollery)
-}
+const hiddenElements = document.querySelectorAll(".hidden");
+hiddenElements.forEach((i) => observer.observe(i));
