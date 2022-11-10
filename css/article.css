@@ -35,8 +35,10 @@ header li {
 }
 
 .section-content {
+    font-size: 12pt;
     padding: 2em;
     max-width: 1000px;
+    line-height: 1.5em;
 }
 
 .div-text-content {
@@ -111,8 +113,19 @@ header li {
     margin-right: 0.5em;
 }
 
+.section-sources {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-separator {
+    border-top: 1px solid black;
+    margin-top: 2em;
+}
+
 a {
     color: #111;
     font-weight: bold;
 }
+
 
