@@ -5,7 +5,7 @@
 }
 
 body, html {
-    background-image: url(../images/index/line-art-background.png);
+    background-image: url(../images/index/line-art-background.webp);
 }
 
 main {
@@ -20,7 +20,7 @@ header {
     padding: 1em;
     height: 100px;
     background-attachment: fixed;
-    background-image: url('https://ensia.com/wp-content/uploads/2018/02/Noteable_ewaste_main-760x378.jpg');
+    background-image: url('https://ensia.com/wp-content/uploads/2018/02/Noteable_ewaste_main-760x378.webp');
     background-color: #0005;
     background-blend-mode: darken;
 

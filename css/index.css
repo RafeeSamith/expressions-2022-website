@@ -52,11 +52,11 @@ header {
 
 main {
     margin: 0;
-    background-image: url(../images/index/line-art-background.png);
+    background-image: url(../images/index/line-art-background.webp);
 }
 
 .section-pastel {
-    background-image: url("../images/index/leaves-top.png"), url("../images/index/leaves-bottom.png"), url("../images/index/line-art-leaves.png");
+    background-image: url("../images/index/leaves-top.webp"), url("../images/index/leaves-bottom.webp"), url("../images/index/line-art-leaves.webp");
     background-position: top left, bottom right;
     background-repeat: no-repeat, no-repeat, repeat-x;
     background-blend-mode: normal, normal, overlay;
@@ -82,7 +82,7 @@ main {
     font-family: "Lobster Two";
     text-align: center;
     padding: 1em;
-    background-image: url("../images/logo.png");
+    background-image: url("../images/logo.webp");
     background-size: cover;
 }
 
@@ -130,7 +130,7 @@ main {
     min-height: 98.5vh; 
     font-size: 14pt;
     border: solid 5px #ff6f61;
-    background-image: url(../images/index/mission-bg.jpg);
+    background-image: url(../images/index/mission-bg.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
